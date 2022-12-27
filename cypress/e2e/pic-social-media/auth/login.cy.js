@@ -1,10 +1,10 @@
 describe("login on app", () => {
   beforeEach(() => {
-    cy.visit("https://alura-fotos.herokuapp.com");
+    cy.visit("/");
   });
 
   it("should login successfully", () => {
-    cy.login("flavio", "123");
+    cy.login(Cypress.env(userName), Cypress.env(password));
     cy.contains("a", "(Logout)").should("be.visible");
   });
 
