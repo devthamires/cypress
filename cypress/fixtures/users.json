@@ -1,0 +1,20 @@
+[
+    {
+        "email": "luke.skywalker@starwars.com",
+        "fullName": "Luke Skywalker",
+        "username": "luke",
+        "password": "jediMaster"
+    },
+    {
+        "email": "leia.organa@starwars.com",
+        "fullName": "Leia Organa",
+        "username": "leia",
+        "password": "general"
+    },
+    {
+        "email": "anakin.skywalker@starwars.com",
+        "fullName": "Anakin Skywalker",
+        "username": "anakin",
+        "password": "darthVader"
+    }
+]
